@@ -29,8 +29,8 @@ git clone <git@github.com:Fredi-B/42_minishell.git>
 - `env`: Display the current environment.
 - `unset [variable]`: Remove the specified environment variable.
 - `exit`: Exit the minishell.
-### External commands
-- The minishell supports executing external commands by entering the command name (based on the PATH variable or using a relative or absolute path).
+### Other commands
+- The minishell supports executing commands by entering the command name (based on the PATH variable or using a relative or absolute path).
 ### Redirections:
 - `< [file]`: Redirect input from a file.
 - `> [file]`: Redirect output to a file (overwrite if the file already exists).
